@@ -19,3 +19,5 @@
 * 使用redux进行数据流管理 todo
 * 使用underscore进行数据处理 todo
 
+## 相关资源
+[webpack2](https://webpack.js.org/)
