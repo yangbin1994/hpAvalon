@@ -1,4 +1,4 @@
-# Hpavalon
+# HpAvalon
 
 ## 介绍
 使用webpack2构建，基于avalon2，pc端后台网站类型快速开发的脚手架
