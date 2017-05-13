@@ -1,0 +1,1 @@
+export { MODEL_PATHS } from './routeModel'
