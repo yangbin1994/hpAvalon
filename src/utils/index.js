@@ -1,0 +1,1 @@
+export { registerModel } from './register'
