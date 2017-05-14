@@ -11,3 +11,6 @@
 .DS_Store
 *.swp
 npm-debug.log*
+
+npm-debug.log
+yarn-error.log
