@@ -2,7 +2,7 @@
 
 [在线文档](https://yangbin1994.gitbooks.io/hpavalon/content/)
 
-![dashbord](./shows/Untitled.gif)
+![dashbord](./shows/dashbord.gif)
 
 ![test](./shows/test.gif)
 
