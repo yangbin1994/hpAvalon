@@ -27,7 +27,4 @@
 //     }
 // }
 
-export default () => {
-    console.info('aasdfaasdgasdgasdfasdfsdfasdffs')
-    
-}
+export default (str) => str.toUpperCase()

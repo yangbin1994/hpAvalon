@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build:prod": "rimraf dist && cross-env NODE_ENV=production && webpack-dashboard -- webpack --progress --profile --colors --config ./build/webpack.prod.js",
-    "build:dev": "cross-env NODE_ENV=development && webpack-dashboard -- webpack-dev-server --hot --inline --progress --profile --colors --config ./build/webpack.dev.js"
+    "build:dev": "cross-env NODE_ENV=development && webpack-dashboard -- webpack-dev-server --hot --inline --progress --profile --colors --config ./build/webpack.dev.js",
+    "test": "./node_modules/karma-cli/bin/karma start"
   },
   "dependencies": {
     "avalon2": "^2.2.6",
@@ -12,6 +13,7 @@
     "babel-preset-env": "^1.4.0",
     "bluebird": "^3.5.0",
     "bootstrap": "3.3.7",
+    "browserify": "^14.3.0",
     "chunk-manifest-webpack-plugin": "^1.1.0",
     "cross-env": "^4.0.0",
     "css-loader": "^0.28.1",
@@ -20,19 +22,40 @@
     "file-loader": "^0.11.1",
     "html-webpack-plugin": "^2.28.0",
     "inline-manifest-webpack-plugin": "^3.0.1",
+    "jasmine": "^2.6.0",
     "json3": "^3.3.2",
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-should": "^1.0.0",
+    "karma-webpack": "^2.0.3",
     "less": "^2.7.2",
     "less-loader": "^4.0.3",
     "lodash": "3.10.1",
+    "mocha": "^3.3.0",
     "moment": "^2.18.1",
     "rimraf": "^2.6.1",
+    "should": "^11.2.1",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8",
+    "watchify": "^3.9.0",
     "webpack": "^2.5.1",
     "webpack-chunk-hash": "^0.4.0",
     "webpack-dashboard": "^0.4.0",
     "webpack-dev-server": "^2.4.5",
     "webpack-manifest-plugin": "^1.1.0",
     "webpack-merge": "^4.1.0"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-opera-launcher": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0"
   }
 }

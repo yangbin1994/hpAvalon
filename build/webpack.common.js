@@ -42,8 +42,7 @@ module.exports = {
                         presets: [['env', { modules: false }]],
                     }
                 },
-                exclude: path.join(__dirname, 'node_modules'),
-
+                exclude: /node_modules/,
             },
             {
                 test: /\.(jpg|png|gif)$/,
