@@ -2,9 +2,9 @@
 
 [在线文档](https://yangbin1994.gitbooks.io/hpavalon/content/)
 
-![dashbord](./shows/dashbord.gif)
+![dashbord](./meta/dashbord.gif)
 
-![test](./shows/test.gif)
+![test](./meta/test.gif)
 
 
 
